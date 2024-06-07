@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class SumTest {
-
+   
     @Test
     public void testAdd() {
         Sum sum = new Sum();
