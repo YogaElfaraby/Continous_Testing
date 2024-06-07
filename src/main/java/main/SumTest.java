@@ -17,7 +17,7 @@ public class SumTest {
     @Test
     public void testAdd() {
         Sum sum = new Sum();
-        assertEquals(10, sum.add(5, 10));
+        assertEquals(, sum.add(5, 10));
         assertEquals(0, sum.add(-5, 5));
         assertEquals(-15, sum.add(-10, -5));
     }
